@@ -123,9 +123,8 @@ body {
 
 /* start education and skills section */
 
-/* Apply custom font size to the <h2> element */
 .bigger-font {
-    font-size: 55px; 
+    font-size: 48px; 
 }
 
 /* put list of languages as columns */
@@ -153,7 +152,7 @@ body {
     margin-bottom: 15px;
 }
 
-/* Apply font color #FAEFE6 to the <h4> elements inside .rectangle */
+
 .rectangle h4 {
     color: #FAEFE6;
     margin-top: 20px; 
@@ -165,7 +164,7 @@ body {
     align-items: center;
 }
 
-/* Apply default font and font size to the <p> elements */
+
 .rectangle p {
     font-size: 14px;
     color: #FAEFE6;
@@ -193,9 +192,49 @@ body {
 
 .project-item {
     padding: 20px;
-    background-color: white;
     margin-bottom: 20px;
+    min-height: 500px;
+    border-bottom: 1px solid #FAEFE6;
 }
+
+.project-item img {
+    max-height: 400px;
+    width: auto;
+}
+
+#projects h2 {
+    text-align: center;
+    font-family: 'HagridTextExtrabold', sans-serif;
+    font-size: 48px;
+    color: #FAEFE6;
+}
+
+.section-title {
+    border-bottom: 2px solid #D46BCA;
+    padding-bottom: 10px; 
+    max-width: 700px;
+}
+
+
+.project-item h3 {
+    font-family: 'HagridRegular', sans-serif;
+    font-size: 22px;
+    color: #FAEFE6;
+}
+
+.project-item p {
+    font-size: 18px;
+    color: #FAEFE6;
+    max-width: 700px;
+    margin-top: 20px;
+}
+
+.tech-used {
+   font-style: italic;
+   font-size: 0.9em; 
+}
+
+
 
 /* end projects section */
 
@@ -317,10 +356,10 @@ body {
 }
 
 @media (max-width: 768px) {
-    .contact-image-container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        .contact-image-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
     }
-}
   
