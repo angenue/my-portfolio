@@ -86,13 +86,15 @@ body {
 }
 
 .about-me-content h2 {
-    font-family: 'HagridRegular', sans-serif;
+    font-family: 'Grandstander', cursive;
+    font-weight: 400;
     font-size: 55px;
     color: #FAEFE6;
 }
 
 .angelica-text {
-    font-family: 'HagridTextExtrabold', sans-serif;
+    font-family: 'Grandstander', cursive;
+    font-weight: 900;
     color: #553566;
 }
 
@@ -125,6 +127,13 @@ body {
 
 .bigger-font {
     font-size: 48px; 
+    font-family: 'Grandstander', cursive;
+    font-weight: 900;
+}
+
+.column-name {
+    font-family: 'Grandstander', cursive;
+    font-weight: 400;
 }
 
 /* put list of languages as columns */
@@ -180,10 +189,6 @@ body {
 
 
 
-
-
-
-
 /* start projects section */
 
 .projects {
@@ -209,7 +214,8 @@ body {
 
 #projects h2 {
     text-align: center;
-    font-family: 'HagridTextExtrabold', sans-serif;
+    font-family: 'Grandstander', cursive;
+    font-weight: 900;
     font-size: 48px;
     color: #FAEFE6;
 }
@@ -222,8 +228,9 @@ body {
 
 
 .project-item h3 {
-    font-family: 'HagridRegular', sans-serif;
-    font-size: 22px;
+    font-family: 'Grandstander', cursive;
+    font-weight: 400;
+    font-size: 25px;
     color: #FAEFE6;
 }
 
@@ -289,7 +296,8 @@ body {
 }
 
 .contact-title {
-    font-family: 'HagridTextExtrabold', sans-serif;
+    font-family: 'Grandstander', cursive;
+    font-weight: 900;
     font-size: 55px;
     color: #D46BCA;
     margin-bottom: 40px;
@@ -315,7 +323,8 @@ body {
 
 .contact-email,
 .contact-phone {
-    font-family: 'HagridRegular', sans-serif;
+    font-family: 'Grandstander', cursive;
+    font-weight: 400;
     font-size: 16px;
 }
 
