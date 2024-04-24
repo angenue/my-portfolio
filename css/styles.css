@@ -82,25 +82,7 @@ body {
 #about-me {
     background-color: #FD883D;
     color: white;
-    min-height: 500px; 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.about-me-content {
-    flex: 1;
-    padding: 0 20px;
-    max-width: 50%;
-}
-
-
-.about-me-image img {
-    max-width: 100%;
-    height: auto;
-    max-height: 900px; 
-    margin-left: 20px;
-    border-radius: 90px;
+    padding: 50px 0;
 }
 
 .about-me-content h2 {
@@ -114,18 +96,24 @@ body {
     color: #553566;
 }
 
-.about-me-content p {
+.about-me-text {
     font-size: 18px;
-    color: #FAEFE6;
-    font-family: sans-serif; 
-    width: 100%; 
     max-width: 700px;
-    margin-top: 20px; 
+    margin-top: 20px;
 }
 
-.about-me-content p:first-child {
-    margin-top: 20px; /* space between the header and paragraph */
+/* button styles */
+.custom-btn-primary {
+    background-color: #D46BCA;
+    border: none; 
+    color: #FAEFE6;
 }
+
+.custom-btn-primary:hover {
+    background-color: #f3c1ee;
+    color: #553566;
+}
+
 
 
 /* end about me section */
