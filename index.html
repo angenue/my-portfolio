@@ -17,21 +17,25 @@
         </ul>
     </nav>
 
+    <!-- About me section -->
+
     <div class="section" id="about-me">
         <div class="about-me-content">
-            <h2>Heyo,
-                Angelica here!
+            <h2>Heyo, <br>
+                <span class="angelica-text">Angelica</span> here!
             </h2>
-            <p>I'm a 2023 new computer science new grad 💻 . 
-                I am really excited to put my Java and Springboot skills to use in a great company. 
-                I have done various personal projects to improve my skills which show my passion for learning 🌸. 
-                Most of these projects were made using java, springboot, android studio, etc. Let’s work together! 😄</p>
-        </div>
-       
-            <div class="about-me-image">
-                <img src="images/CharacterImage.png" alt="Profile Picture">
+            <div class="about-me-text">
+                <p>I'm a 2023 new computer science new grad 💻 . 
+                    I am really excited to put my Java and Springboot skills to use in a great company. 
+                    I have done various personal projects to improve my skills which show my passion for learning 🌸. 
+                    Most of these projects were made using Java, Springboot, Android Studio, etc. Let’s work together! 😄</p>
             </div>
+        </div>
+        <div class="about-me-image">
+            <img src="images/CharacterImage.png" alt="Profile Picture">
+        </div>
     </div>
+    
 
     <!-- education and skills section-->
 
@@ -43,14 +47,15 @@
                     <div class="rectangle">
                         <img src="images/education-cap.svg" alt="Education Cap Icon" width="50" height="50">
                         <h4 class="text-color HagridRegular">Education</h4>
-                        <p class="text-color">
-                            <span class="font-weight-bold">Southern New Hampshire University</span> <span class="font-italic">Bachelors of Computer Science</span> <br>
-                            <span class="font-weight-bold">June 2022 - Nov 2023</span> <br><br>
-                            <span class="font-weight-bold">Community College of Philadelphia</span> <span class="font-italic">Associates of Computer Science</span> <br>
-                            <span class="font-weight-bold">Sep 2020 - May 2022</span>
-                        </p>
-                        
+                        <div class="text-color education-info">
+                            <p><span class="font-weight-bold">Southern New Hampshire University</span><br><span class="font-italic">Bachelors of Computer Science</span></p>
+                            <p><span class="font-weight-bold">June 2022 - Nov 2023</span></p>
+                            <br>
+                            <p><span class="font-weight-bold">Community College of Philadelphia</span><br><span class="font-italic">Associates of Computer Science</span></p>
+                            <p><span class="font-weight-bold">Sep 2020 - May 2022</span></p>
+                        </div>
                     </div>
+                    
                 </div>
                 <div class="col-md-4 mb-4">
                     <div class="rectangle">
@@ -72,7 +77,13 @@
                     <div class="rectangle">
                         <img src="images/tools-svg.svg" alt="Tool Icon" width="40" height="40">
                         <h4 class="text-color HagridRegular">Tools</h4>
-                        <p class="text-color">- Android Stud<br>- Junit<br>- Git<br>- Maven<br>- Jenkins</p>
+                        <div class="education-info">
+                            <p class="text-color">Android Studio</p>
+                            <p class="text-color">Junit</p>
+                            <p class="text-color">Git</p>
+                            <p class="text-color">Maven</p>
+                            <p class="text-color">Jenkins</p>
+                        </div>
                     </div>
                 </div>
                 

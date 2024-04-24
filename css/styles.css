@@ -85,21 +85,52 @@ body {
     min-height: 500px; 
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
 }
 
-.about-me-text {
+.about-me-content {
     flex: 1;
     padding: 0 20px;
+    max-width: 50%;
 }
+
 
 .about-me-image img {
     max-width: 100%;
     height: auto;
     max-height: 900px; 
+    margin-left: 20px;
+    border-radius: 90px;
 }
 
+.about-me-content h2 {
+    font-family: 'HagridRegular', sans-serif;
+    font-size: 55px;
+    color: #FAEFE6;
+}
+
+.angelica-text {
+    font-family: 'HagridTextExtrabold', sans-serif;
+    color: #553566;
+}
+
+.about-me-content p {
+    font-size: 18px;
+    color: #FAEFE6;
+    font-family: sans-serif; 
+    width: 100%; 
+    max-width: 700px;
+    margin-top: 20px; 
+}
+
+.about-me-content p:first-child {
+    margin-top: 20px; /* space between the header and paragraph */
+}
+
+
 /* end about me section */
+
+
 
 
 /* start education and skills section */
@@ -112,7 +143,8 @@ body {
 /* put list of languages as columns */
 .two-column-list {
     display: grid;
-    grid-template-columns: repeat(2, auto);  
+    grid-template-columns: repeat(2, auto); 
+    margin-top: 20px; 
 }
 
 .text-color {
@@ -139,13 +171,31 @@ body {
     margin-top: 20px; 
 }
 
+.education-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 /* Apply default font and font size to the <p> elements */
 .rectangle p {
     font-size: 14px;
     color: #FAEFE6;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.education-info p:first-child {
+    margin-top: 20px; /* Space between the header and the first paragraph */
 }
 
 /* end education and skills section */
+
+
+
+
+
+
 
 /* start projects section */
 
@@ -169,3 +219,25 @@ body {
         height: auto;
     }
 }
+
+@media (max-width: 768px) {
+    #about-me {
+      flex-direction: column;
+    }
+
+    .about-me-content {
+        padding: 0 10px;
+        max-width: 600px;
+        text-align: center; 
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+      }
+      
+  
+    .about-me-image img {
+      order: -1; 
+      margin-top: 20px; 
+    }
+  }
+  
