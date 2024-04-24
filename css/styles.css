@@ -194,8 +194,12 @@ body {
     padding: 20px;
     margin-bottom: 20px;
     min-height: 500px;
+}
+
+.project-item:not(:last-child) {
     border-bottom: 1px solid #FAEFE6;
 }
+
 
 
 .project-item img {
@@ -239,6 +243,7 @@ body {
     height: 50px;
     width: 50px;
     margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 
