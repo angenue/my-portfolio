@@ -197,6 +197,7 @@ body {
     border-bottom: 1px solid #FAEFE6;
 }
 
+
 .project-item img {
     max-height: 400px;
     width: auto;
@@ -232,6 +233,12 @@ body {
 .tech-used {
    font-style: italic;
    font-size: 0.9em; 
+}
+
+.flower-icon {
+    height: 50px;
+    width: 50px;
+    margin-bottom: 20px;
 }
 
 
