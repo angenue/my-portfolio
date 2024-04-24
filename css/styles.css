@@ -199,6 +199,97 @@ body {
 
 /* end projects section */
 
+
+
+
+/* start contact section */
+
+#contact {
+    padding: 50px 0;
+}
+
+
+.contact-image {
+    max-width:500px;
+    max-height: 500px;
+}
+
+
+.contact-text-container {
+    color: #553566;
+    padding: 20px;
+}
+
+.contact-title {
+    font-family: 'HagridTextExtrabold', sans-serif;
+    font-size: 55px;
+    color: #D46BCA;
+    margin-bottom: 40px;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-detail {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.contact-header {
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #553566; 
+}
+
+.contact-email,
+.contact-phone {
+    font-family: 'HagridRegular', sans-serif;
+    font-size: 16px;
+}
+
+.contact-social {
+    margin-top: 20px;
+}
+
+.social-link {
+    margin-right: 10px;
+}
+
+.social-link img {
+    width: 70px;
+    height: 70px;
+}
+
+
+.contact-item {
+    margin-bottom: 20px;
+}
+
+.contact-icon {
+    width: 70px;
+    height: 70px;
+    margin-right: 10px;
+}
+
+.contact-link {
+    color: #553566;
+    text-decoration: none;
+}
+
+.contact-text {
+    
+    font-size: 16px;
+    color: #553566;
+}
+
+
+
+/*end contact section */
+
 /* media query for responsiveness */
 @media (max-width: 768px) {
     #education-skills,
@@ -208,24 +299,4 @@ body {
     }
 }
 
-@media (max-width: 768px) {
-    #about-me {
-      flex-direction: column;
-    }
-
-    .about-me-content {
-        padding: 0 10px;
-        max-width: 600px;
-        text-align: center; 
-        display: flex;
-    flex-direction: column;
-    align-items: center;
-      }
-      
-  
-    .about-me-image img {
-      order: -1; 
-      margin-top: 20px; 
-    }
-  }
   
