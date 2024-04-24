@@ -204,8 +204,25 @@ body {
 
 /* start contact section */
 
+#contact, .remove-margin{
+    padding: 0;
+    margin: 0;
+    
+    
+}
+
+/* Custom CSS */
 #contact {
-    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.contact-image-container {
+    background-color: #D46BCA;
+    padding: 50px; 
+
 }
 
 
@@ -299,4 +316,11 @@ body {
     }
 }
 
+@media (max-width: 768px) {
+    .contact-image-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
   
